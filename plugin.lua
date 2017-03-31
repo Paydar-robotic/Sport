@@ -5,11 +5,11 @@ function getdate(o)
 end
 
 function run(msg)
-	about_key = {{{text="Website",url="http://Umbrella.shayan-soft.ir"},{text="Master Channel",url="https://telegram.me/UmbrellaTeam"}},{{text="Master Robot",url="https://telegram.me/UmbreIIaBot"},{text="Instagram",url="https://instagram.com/UmbrellaTeam"}},{{text="Messanger",url="https://telegram.me/shayansoftBot"},{text="Admin",url="https://telegram.me/shayan_soft"}}}
-	about_txt = "*Sport3 Robot* v"..bot_version.."\n\n`رباتی برای علاقمندان به فوتبال، محصولی از آمبرلا پروجکت...`\n\nبرنامه نویس: [مهندس شایان احمدی](https://instagram.com/shayan_soft)\nمشاور: [هیرش فرجی](https://instagram.com/heresh9)\nطراح لوگو: لیلا احمدی\nبا سپاس فراوان از آقای شکیب هدایتی و وبسایت ورزش3"	
+	about_key = {{{text="Website",url="http://paydar-robotic.ir"},{text="Master Channel",url="https://telegram.me/paydarteam"}},{{text="Master Robot",url="https://telegram.me/Paydar_SupportBot"},{text="Instagram",url="https://instagram.com/Paydar_robotic"}},{{text="Messanger",url="https://telegram.me/Omid_paydarBot"},{text="Admin",url="https://telegram.me/Omid_paydar"}}}
+	about_txt = "*Football Bot* v"..bot_version.."\n\n`رباتی برای علاقمندان به فوتبال، محصولی از پایدار ...`\n\nبرنامه نویس: [Omid Paydar](https://instagram.com/Paydar_robotic)\nمشاور:Ramin M ](https://instagram.com/paydar_robotic)\nطراح لوگو: Omid PaYdar \nبا سپاس فراوان از آقای شکیب هدایتی و وبسایت ورزش3"	
 	help_user = about_txt
 	help_admin = "_Admin Commands:_\n\n".."   *Block a user:*\n".."     `/block {telegram id}`\n\n".."   *Unblock a user:*\n".."     `/unblock {telegram id}`\n\n".."   *Block list:*\n".."     /blocklist\n\n".."   *Send message to all users:*\n".."     `/sendtoall {message}`\n\n".."   *All users list:*\n".."     /users\n\n"
-	start_txt = "به ربات اسپرت3 خوش آمدید\n\n`این ربات با مرجع ورزش3 اطلاعات را ارائه مینماید و قادر است اطلاعات کامل لیگای مهم جهان همچنین اخبار مرتبط با فوتبال را در اختیارتان قرار دهد.`"
+	start_txt = "به ربات Football Bot خوش آمدید\n\n`این ربات با مرجع ورزش3 اطلاعات را ارائه مینماید و قادر است اطلاعات کامل لیگای مهم جهان همچنین اخبار مرتبط با فوتبال را در اختیارتان قرار دهد.`"
 	keyboard = {{"نتایج آنلاین بازیها"},{"اخبار فوتبال"},{"اطلاعات لیگها"},{"سایر پلتفرما","درباره ما"}}
 	------------------------------------------------------------------------------------
 	blocks = load_data("../blocks.json")
